@@ -1,5 +1,3 @@
-:satisfied:
-
 # Flask-Pitch
 
 ## Description
