@@ -47,7 +47,7 @@ class DevConfig(Config):
         Config: The parent config class with general config settings
     '''
     SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://fridah:FRIDAH@localhost/app'
-    DEBUG = True
+    DEBUG = False
 
 
 config_options = {
