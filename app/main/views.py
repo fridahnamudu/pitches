@@ -70,7 +70,7 @@ def update_pic(uname):
 
 
 @main.route('/pitch/new', methods=['GET', 'POST'])
-@login_required
+#@login_required
 def new_pitch():
     pitch_form = PitchForm()
     if pitch_form.validate_on_submit():
